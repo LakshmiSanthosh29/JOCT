@@ -18,7 +18,15 @@ public class funexm {
         difference(x, y);
         multiplication(x, y);
         division(x, y);
+        modulous(x,y);
+
     }
+
+     static void modulous(int x, int y)
+     {
+         System.out.println("Modulous of given two numbers = "+(x%y));
+    }
+
     static void sum(int a,int b)
     {
         System.out.println("sum of two numbers = "+ (a+b));
